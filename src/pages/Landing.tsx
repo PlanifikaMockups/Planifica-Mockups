@@ -352,7 +352,7 @@ export function Landing() {
                 <div className="relative">
                   <div className="absolute inset-0 bg-[#FFD369] rounded-xl opacity-20 blur-lg"></div>
                   <div className="relative p-2 bg-[#FFD369]/10 rounded-xl">
-                    <Target className="h-10 w-10 text-[#FFD369]" />
+                    <Logo className="h-10 w-10" />
                   </div>
                 </div>
                 <div className="ml-4">
