@@ -8,7 +8,7 @@ interface DrimSoftLogoProps {
 export function DrimSoftLogo({ className = "", size = 20 }: DrimSoftLogoProps) {
   return (
     <img
-      src="/src/assets/images/DrimSoft logo.png"
+  src="/assets/images/DrimSoft logo.png"
       alt="DrimSoft Logo"
       width={size}
       height={size}

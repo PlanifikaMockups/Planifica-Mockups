@@ -8,7 +8,7 @@ interface LogoProps {
 export function Logo({ className = "", size = 40 }: LogoProps) {
   return (
     <img
-      src="/src/assets/images/planifika_logo.png"
+  src="/assets/images/planifika_logo.png"
       alt="Planifika Logo"
       width={size}
       height={size}
