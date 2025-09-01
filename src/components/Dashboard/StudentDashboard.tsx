@@ -4,6 +4,7 @@ import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { ProgressBar } from '../ui/ProgressBar';
 import { Badge } from '../ui/Badge';
+import { Logo } from '../ui/Logo';
 import { useAuth } from '../../contexts/AuthContext';
 import { formatDate, getDaysUntil } from '../../utils/dateUtils';
 
@@ -128,7 +129,7 @@ export function StudentDashboard() {
         <div className="relative z-10">
           <div className="flex items-center space-x-3 mb-4">
             <div className="p-3 bg-white/20 rounded-xl">
-              <Target className="h-8 w-8 text-[#FFD369]" />
+              <Logo size={32} className="text-[#FFD369]" />
             </div>
             <div>
               <h1 className="text-3xl lg:text-4xl font-bold font-['Poppins']">

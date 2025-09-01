@@ -16,6 +16,7 @@ import {
 import { Button } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { DrimSoftLogo } from '../components/ui/DrimSoftLogo';
+import { Logo } from '../components/ui/Logo';
 import { useAuth } from '../contexts/AuthContext';
 
 export function Login() {
@@ -56,7 +57,7 @@ export function Login() {
               <div className="relative">
                 <div className="absolute inset-0 bg-[#FFD369] rounded-3xl opacity-20 blur-2xl"></div>
                 <div className="relative p-4 bg-[#FFD369]/10 rounded-3xl border border-[#FFD369]/20">
-                  <Target className="h-16 w-16 text-[#FFD369]" />
+                  <Logo size={64} className="text-[#FFD369]" />
                 </div>
               </div>
               <div className="ml-6">

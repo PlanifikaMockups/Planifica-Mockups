@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Target, Building, Mail, User, GraduationCap } from 'lucide-react';
 import { Button } from '../components/ui/Button';
 import { DrimSoftLogo } from '../components/ui/DrimSoftLogo';
+import { Logo } from '../components/ui/Logo';
 
 export function Join() {
   const [formData, setFormData] = useState({
@@ -31,7 +32,7 @@ export function Join() {
         {/* Logo */}
         <div className="text-center">
           <div className="flex justify-center mb-4">
-            <Target className="h-12 w-12 text-[#FFD369]" />
+            <Logo size={48} className="text-[#FFD369]" />
           </div>
           <h2 className="text-3xl font-bold text-[#222831] font-['Poppins']">Unirse como Institución</h2>
           <p className="mt-2 text-gray-600 font-['Inter']">Solicita acceso a tu institución educativa</p>

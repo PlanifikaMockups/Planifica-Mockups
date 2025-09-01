@@ -56,7 +56,7 @@ export function Landing() {
       color: '#9C27B0'
     },
     {
-      icon: Target,
+  icon: Logo,
       title: 'Logro de Objetivos',
       description: 'Establece hitos, rastrea entregables y alcanza la excelencia académica con gestión de proyectos de precisión.',
       color: '#FFD369'
@@ -220,7 +220,6 @@ export function Landing() {
               <Card 
                 key={index} 
                 className="group text-center p-8 planifika-card-hover academic-glow"
-                style={{ animationDelay: `${index * 0.15}s` }}
               >
                 <div className="inline-flex items-center justify-center w-20 h-20 mb-6 bg-gradient-to-br rounded-2xl group-hover:scale-110 transition-all duration-300"
                      style={{ 
@@ -304,7 +303,7 @@ export function Landing() {
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent"></div>
         <div className="relative max-w-5xl mx-auto px-6 text-center">
           <div className="inline-flex items-center justify-center w-24 h-24 bg-[#FFD369]/20 rounded-full mb-8">
-            <Target className="h-12 w-12 text-[#FFD369]" />
+            <Logo className="h-12 w-12" />
           </div>
           
           <h2 className="text-5xl lg:text-6xl font-bold text-white mb-8 font-['Poppins'] leading-tight">
